@@ -1,0 +1,136 @@
+.nutricionistas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 98px;
+    margin-bottom: 150px;
+}
+
+.nutricistas-info{
+    text-align: right;
+    align-self: center;
+}
+
+.nutricistas-info h2{
+    margin-bottom: 49px;
+}
+
+.nutricistas-info p{
+    padding-left: 116px;
+}
+
+.nutricistas-info span{
+    white-space: nowrap;
+}
+
+.nutricionistas-giovana,
+.nutricionistas-camila{
+    display: grid;
+}
+
+.nutricionistas-giovana{
+    grid-template-columns: max-content auto;
+    margin-bottom: 40px;
+}
+
+.nutricionistas-camila{
+    grid-template-columns: auto max-content;
+}
+
+.nutricionistas-giovana > div{
+    background: var(--cor-9);
+    align-self: start;
+    margin-top: 22px;
+    padding: 13px 0 8px 15px;
+}
+
+.nutricionistas-camila > div{
+    background: var(--cor-12);
+    align-self: end;
+    margin-bottom: 22px;
+    padding: 13px 15px 8px 0;
+    text-align: right;
+}
+
+@media(max-width: 1200px){
+    .nutricionistas{
+        gap: 80px;
+    }
+
+    .nutricistas-info span{
+        white-space: normal;
+    }
+
+    .nutricistas-info p{
+        padding-left: 0px;
+    }
+}
+
+@media(max-width: 800px){
+    .nutricionistas{
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+
+    .nutricistas-info h2{
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 600px){
+    .nutricionistas{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .nutricistas-info{
+        grid-area: 1/1;
+        text-align: left;
+        align-self: center;
+    }
+
+    .nutricistas-info h2{
+        margin-bottom: 20px;
+    }
+
+    .nutricistas-info p{
+        padding-left: 0px;
+    }
+
+    .nutricionistas-giovana{
+        grid-template-columns: max-content auto;
+        margin-bottom: 30px;
+    }
+    
+    .nutricionistas-camila{
+        grid-template-columns: auto max-content;
+    }
+}
+
+@media(max-width: 400px){
+    .nutricionistas{
+        gap: 10px;
+    }
+
+    .nutricionistas-giovana{
+        grid-template-columns: auto;
+    }
+    
+    .nutricionistas-giovana > div{
+        grid-area: 2/1;
+        margin-top: 0;
+    }
+
+    .nutricionistas-camila img{
+        justify-self: end;
+    }
+
+    .nutricionistas-camila > div{
+        grid-area: 2/1;
+    }
+}
+
+@media(max-width: 376px){
+    .nutricistas-info p span{
+        display: inline-block;
+    }
+}

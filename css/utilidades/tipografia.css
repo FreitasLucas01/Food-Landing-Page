@@ -1,0 +1,103 @@
+/* Roboto */
+.font-roboto-54px{
+    font: 700 3.375rem/1.1 "Roboto" , serif;
+}
+
+.font-roboto-44px{
+    font: 700 2.75rem/1.1 "Roboto" , serif;
+}
+
+.font-roboto-20px{
+    font: 700 1.25rem/1 "Roboto" , serif;
+}
+
+.font-roboto-18px-bolder,
+.font-roboto-18px-bold,
+.font-roboto-18px-medium,
+.font-roboto-18px-light{
+    font: 700 1.125rem/1.23 "Roboto" , serif;
+}
+.font-roboto-18px-bold{
+    font-weight: 600;
+}
+.font-roboto-18px-medium{
+    font-weight: 500;
+}
+.font-roboto-18px-light{
+    font-weight: 400;
+}
+
+.font-roboto-16px{
+    font: 700 1rem/1.35 "Roboto" , serif;
+}
+
+.font-roboto-14px{
+    font: 500 0.875rem/1.58 "Roboto" , serif;
+}
+
+.font-roboto-12px{
+    font: 400 0.73rem/1.84 "Roboto" , serif;
+}
+
+/* Roboto-Serif */
+.font-roboto-serif-54px{
+    font: 700 3.375rem/1.1 "Roboto Serif" , serif;
+}
+
+.font-roboto-serif-44px{
+    font: 700 2.75rem/1.1 "Roboto Serif" , serif;
+}
+
+.font-roboto-serif-20px{
+    font: 700 1.25rem/1 "Roboto Serif" , serif;
+}
+
+.font-roboto-serif-18px-bolder,
+.font-roboto-serif-18px-bold,
+.font-roboto-serif-18px-medium,
+.font-roboto-serif-18px-light{
+    font: 700 1.125rem/1.23 "Roboto Serif" , serif;
+}
+.font-roboto-serif-18px-bold{
+    font-weight: 600;
+}
+.font-roboto-serif-18px-medium{
+    font-weight: 500;
+}
+.font-roboto-serif-18px-light{
+    font-weight: 400;
+}
+
+.font-roboto-serif-16px{
+    font: 700 1rem/1.35 "Roboto Serif" , serif;
+}
+
+.font-roboto-serif-14px{
+    font: 500 0.875rem/1.58 "Roboto Serif" , serif;
+}
+
+.font-roboto-serif-14px-bold{
+    font: 700 0.875rem/1.214 "Roboto Serif" , serif;
+}
+
+@media(max-width: 1200px){
+    .font-roboto-serif-54px{
+        font: 700 2.75rem/1.1 "Roboto Serif" , serif;
+    }
+}
+
+@media(max-width: 800px){
+    .font-roboto-serif-54px{
+        font: 700 2rem/1.1 "Roboto Serif" , serif;
+    }
+    .font-roboto-serif-20px{
+        font: 700 1.125rem/1 "Roboto Serif" , serif;
+    }
+
+    .font-roboto-18px-light{
+        font: 400 1rem/1.23 "Roboto" , serif;
+    }
+    .font-roboto-serif-44px{
+        font: 700 2rem/1.1 "Roboto Serif" , serif;
+    }
+}

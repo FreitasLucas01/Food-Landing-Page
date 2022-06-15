@@ -1,0 +1,96 @@
+.time-saude-bg{
+    background: var(--cor-15);
+    padding: 11px 0 26px 0;
+}
+
+.time-saude{
+    max-width: 1085px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
+}
+
+.time-saude h2{
+    margin-bottom: 39px;
+}
+
+.time-saude p{
+    max-width: 48ch;
+    margin-bottom: 30px;
+}
+
+.time-saude h2 span{
+    display: table;
+}
+
+.time-saude-info{
+    place-self: center;
+}
+
+.time-saude-formulario label{
+    margin-bottom: 22px;
+}
+
+.time-saude-formulario input{
+    margin-bottom: 34px;
+    background: var(--cor-15);
+}
+
+.time-saude-formulario button{
+    margin-top: 0;
+}
+
+.time-saude-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media(max-width: 1200px){
+    .time-saude{
+        grid-template-columns: 1fr 1fr;
+        gap: 70px;
+    }
+
+    .time-saude h2{
+        white-space: normal;
+        margin-bottom: 39px;
+        max-width: 100%;
+    }
+
+    .time-saude h2 span{
+        display: inline;
+    }
+
+    .time-saude p{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .time-saude-info{
+    padding-top: 30px;
+    }
+}
+
+@media(max-width: 800px){
+    .time-saude h2{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .time-saude{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .time-saude-img{
+        width: 70%;
+        justify-self: center;
+    }
+}
+
+@media(max-width: 400px){
+    .time-saude-formulario form col-all label span{
+        display: inline-block;
+    }
+}

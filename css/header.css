@@ -1,0 +1,53 @@
+.header-bg{
+    background: var(--cor-5);
+}
+
+.header{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.header p{
+    max-width: 23ch;
+}
+
+.logo{
+    margin: 0;
+    display: flex;
+    align-self: center;
+    gap: 20px;
+}
+
+.logo::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 29px;
+    background: url("../img/logo.svg") no-repeat;
+}
+
+.header a{
+    border: solid 2px var(--cor-10);
+    padding: 7px 29px;
+    border-radius: 3px;
+}
+
+.header a:hover{
+    color: var(--cor-2);
+    background: var(--cor-10);
+    transition: 0.2s;
+}
+
+@media(max-width: 600px){
+    .header a{
+        padding: 7px 10px;
+    }
+}
+
+

@@ -1,0 +1,53 @@
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 70px;
+    max-width: 470px;
+    box-sizing: border-box;
+}
+
+
+.form label{
+    font: 500 1.125rem/1.23 "Roboto" , serif;
+    display: block;
+    margin-bottom: 11px;
+    color: var(--cor-0);
+}
+
+.form input{
+    width: 100%;
+    font: 500 0.875rem/1.58 "Roboto" , serif;
+    border: none;
+    border-bottom: solid 2px var(--cor-0);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.col-all{
+    grid-column: 1/-1;
+}
+
+@media(max-width: 800px){
+    .form input{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 700px){
+    .form{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 415px){
+    .form{
+        grid-template-columns: 1fr;
+        gap: 0px 40px;
+    }
+}

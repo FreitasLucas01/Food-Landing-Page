@@ -1,0 +1,30 @@
+/* Global */
+@import url("./global/global.css");
+
+/* Utilidades */
+@import url("./utilidades/componentes.css");
+@import url("./utilidades/tipografia.css");
+@import url("./utilidades/cores.css");
+@import url("./utilidades/formulario.css");
+@import url("./utilidades/animacao.css");
+
+/* Header */
+@import url("./header.css");
+
+/* E-book */
+@import url("./e-book.css");
+
+/* Comer com saúde não é complicado */
+@import url("./complicado.css");
+
+/* Motivos */
+@import url("./motivos.css");
+
+/* Nutricionistas */
+@import url("./nutricionistas.css");
+
+/* Time de Saúde */
+@import url("./time-saude.css");
+
+/* Footer */
+@import url("./footer.css");

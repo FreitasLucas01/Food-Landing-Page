@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.footer .logo{
+    gap: 20px;
+}
+
+.footer .logo::before{
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 29px;
+    background: url("../img/logo.svg") no-repeat;
+}
+
+@media(max-width: 470px){
+    .footer{
+        justify-content: center;
+        text-align: center;
+    }
+}
