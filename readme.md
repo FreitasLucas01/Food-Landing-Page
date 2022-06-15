@@ -1,5 +1,5 @@
 <br>
-<p align="center"><img align="center" src="./img/sopa.svg">  <br></p>
+<p align="center"><img align="center" width="300px" src="./img/sopa.svg">  <br></p>
 
 <h1 align="center"> Food - Landing Page </h1>
 
