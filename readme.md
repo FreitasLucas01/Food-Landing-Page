@@ -27,7 +27,7 @@
 <h2 id="func"> ⚙ Funcionalidades </h2>
 
  - [x] Responsividade e Acessibilidade <br>
- - [x] Formulário</br>
+ - [x] Formulários</br>
  - [x] Back-End funcional</br>
  - [x] Animações<br>
  - [x] Funciona em navegadores mais antigos<br>
