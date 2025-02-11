@@ -44,7 +44,7 @@
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
-<p>Página de captura criada com HTML, CSS e JavaScript. Simula um e-book de alimentação saudável</p> 
+<p>Arquivo Figma: https://www.figma.com/proto/Eg4PW3ZBrtyiYfFKyEHlIC?node-id=2-3&t=8bJeqTCwi4Gkde6i-6 </p> 
 <hr>
 <br>
 <p> Criado por Lucas Freitas 🖖🏽| <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p> 
